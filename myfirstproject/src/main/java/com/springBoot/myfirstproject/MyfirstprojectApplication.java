@@ -6,9 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MyfirstprojectApplication {
 
+
 	public static void main(String[] args) {
 
 		SpringApplication.run(MyfirstprojectApplication.class, args);
 	}
-
+// checking where did that commit go
 }
