@@ -28,10 +28,10 @@ public class Myclass {
     @GetMapping("/list")
     public ArrayList<String> getList(){
         ArrayList<String> list = new ArrayList<>();
-        list.add("Amit Ghatage");
-        list.add("Anil Ghatage");
-        list.add("kalpana Ghatage");
-        list.add("Anuja Ghatage");
+        list.add("Charlie");
+        list.add("Echo");
+        list.add("Foxtrot");
+        list.add("Gambit");
 
         return list;
     }
