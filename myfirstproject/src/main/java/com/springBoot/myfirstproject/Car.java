@@ -15,11 +15,12 @@ public class Car {
 
     //Autowired is used for Dependency Injection
     @Autowired
-    private Dog dog;
+    public Dog dog;
 
     @GetMapping("/dog")
     public String fun(){
-        return dog.fun();
+        dog.DogName="Rocky";
+        return dog.fun()+" "+dog.DogName;
     }
 
 
