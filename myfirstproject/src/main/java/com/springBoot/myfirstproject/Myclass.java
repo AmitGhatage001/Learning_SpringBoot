@@ -22,6 +22,7 @@ public class Myclass {
 
     @GetMapping("/boolean")
     public boolean getBoolean(){
+
         return true;
     }
 
